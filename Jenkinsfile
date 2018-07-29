@@ -1,5 +1,5 @@
 #!groovy
-def label = "mypod"
+def label = "master"
 podTemplate(label: label, containers: [
     containerTemplate(name: 'docker', image: 'docker', ttyEnabled: true, command: 'cat'),
     containerTemplate(name: 'kubectl', image: 'lachlanevenson/k8s-kubectl:v1.8.0', command: 'cat', ttyEnabled: true),
