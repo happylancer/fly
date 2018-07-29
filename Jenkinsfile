@@ -1,3 +1,4 @@
+#!groovy
 def label = "mypod"
 podTemplate(label: label, containers: [
     containerTemplate(name: 'docker', image: 'docker', ttyEnabled: true, command: 'cat'),
