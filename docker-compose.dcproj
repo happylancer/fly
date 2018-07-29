@@ -3,7 +3,7 @@
   <PropertyGroup Label="Globals">
     <ProjectVersion>2.1</ProjectVersion>
     <DockerTargetOS>Linux</DockerTargetOS>
-    <ProjectGuid>6e447a25-b373-4788-ae0b-a545a95980ee</ProjectGuid>
+    <ProjectGuid>8df804c2-91c2-4b49-b834-c0cea6c92ff3</ProjectGuid>
     <DockerLaunchAction>LaunchBrowser</DockerLaunchAction>
     <DockerServiceUrl>{Scheme}://localhost:{ServicePort}</DockerServiceUrl>
     <DockerServiceName>aspnetapp</DockerServiceName>
